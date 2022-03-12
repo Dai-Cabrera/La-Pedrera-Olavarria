@@ -6,7 +6,9 @@
   "scripts": {
     "compile:scss": "sass --watch scss:css"
   },
-  "keywords": [],
+  "keywords": [
+    "Canchas de tenis, salón de eventos, alojamiento, colonia, Olavarria"
+  ],
   "author": "",
   "license": "ISC"
 }
