@@ -1,0 +1,40 @@
+/* nosotros */
+
+.rowNosotros {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  width: 600px;
+}
+
+/* servicios */
+
+.displayS {
+  width: 600px;
+  text-align: center;
+}
+
+/* galeria */
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+  justify-content: space-evenly;
+  transition: transform 500ms ease;
+}
+
+/* contacto */
+
+.cardContacto {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+}
+
+.iframe {
+  display: flex;
+  justify-content: center;
+}

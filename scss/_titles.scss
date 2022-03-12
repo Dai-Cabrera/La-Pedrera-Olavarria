@@ -1,0 +1,71 @@
+h1 {
+  padding: 30px;
+  font-family: $fontH;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  color: $colorText;
+  letter-spacing: 1rem;
+  animation-duration: 3s;
+  animation-name: move;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* h2 index */
+
+.indexH2 {
+  text-align: center;
+  font-family: $fontH;
+  font-weight: normal;
+  color: $colorH2;
+  padding-top: 1rem;
+}
+
+/* h2 nosotros*/
+
+.h2nosotros {
+  color: $colorH2;
+  letter-spacing: 1rem;
+  font-family: $fontH;
+  padding-bottom: 1rem;
+  border-bottom: 3px double $colorText;
+}
+
+/* h2 servicios */
+
+.titleServicios {
+  letter-spacing: 10px;
+  color: $colorH2;
+  padding-top: 12px;
+  font-family: $fontH;
+  border-bottom: 3px double $colorText;
+  padding-bottom: 1rem;
+}
+
+/* h2 contacto */
+
+.styleH2 {
+  font-family: $fontH;
+  letter-spacing: 5px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: $colorH2;
+  border-bottom: 3px double $colorText;
+}
+
+/* h3 contacto */
+
+h3 {
+  font-family: $contactoH3;
+  color: $contactoColorh3;
+  font-weight: normal;
+  padding: 5px;
+  padding-top: 1rem;
+}

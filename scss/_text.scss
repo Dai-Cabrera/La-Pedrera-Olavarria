@@ -1,0 +1,31 @@
+/* nosotros */
+
+.pNosotros {
+  margin-top: 50px;
+  letter-spacing: 2px;
+  font-family: $fontText;
+  color: $colorParrafos;
+}
+
+/* servicios */
+
+.textServicios {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-family: $fontText;
+  letter-spacing: 2px;
+  color: $colorParrafos;
+}
+
+/* contacto */
+
+.informacion {
+  color: $colorParrafos;
+  font-family: $fontContacto;
+  line-height: 1.5;
+}
+
+.informacion a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
