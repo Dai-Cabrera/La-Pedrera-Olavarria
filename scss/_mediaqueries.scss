@@ -13,4 +13,21 @@
     width: 100%;
     object-fit: contain;
   }
+  h1 {
+    font-size: 30px;
+  }
+
+  .imgGalery {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1201px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  .imgGalery {
+    height: 250px;
+  }
 }
