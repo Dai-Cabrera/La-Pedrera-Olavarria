@@ -66,17 +66,16 @@ body {
   max-width: 1200px;
 }
 
-header a img {
-  border-radius: 50px;
-  margin: 0.5rem;
-}
-
 header {
   background-color: #f4f6f8;
   position: sticky;
   padding: 1rem 0;
   top: 0;
   z-index: 1;
+}
+header a img {
+  border-radius: 50px;
+  margin: 0.5rem;
 }
 header .nav--top {
   position: absolute;
